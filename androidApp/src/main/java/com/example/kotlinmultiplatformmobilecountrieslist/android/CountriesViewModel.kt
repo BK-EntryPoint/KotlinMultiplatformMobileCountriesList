@@ -1,4 +1,5 @@
 package com.example.kotlinmultiplatformmobilecountrieslist.android
 
-class CountriesViewModel {
-}
+import com.example.kotlinmultiplatformmobilecountrieslist.data.model.Country
+
+data class CountriesViewModel(val countries: List<Country>)

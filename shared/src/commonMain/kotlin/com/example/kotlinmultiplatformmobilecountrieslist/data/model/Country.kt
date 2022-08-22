@@ -1,4 +1,3 @@
 package com.example.kotlinmultiplatformmobilecountrieslist.data.model
 
-class Country {
-}
+data class Country(val name: String)
